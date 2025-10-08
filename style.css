@@ -1,103 +1,112 @@
 @font-face {
-    font-family: love;
-    src: url(./PearlBorder-z8OoL.ttf);
+    font-family: face;
+    src: url(./HelveticaNowDisplay-Bold.ttf);
 }
-
 @font-face {
-    font-family: love2;
-    src: url(./LoveHurtRegular-drGG7.ttf);
+    font-family: face2;
+    src: url(./HelveticaNowDisplay-Regular.ttf);
 }
-
 @font-face {
-    font-family: master;
-    src: url(./ZeroMasterDemo-5yPAL.otf);
+    font-family: typo;
+    src: url(./Typographica-Blp5.ttf);
 }
 
-@font-face {
-    font-family: neumachina;
-    src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
-}
-
-@font-face {
-    font-family: monster;
-    src: url(./MeltedMonster-ARPLA.ttf);
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: face2;
 }
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-#main{
+#main {
     height: 100%;
     width: 100%;
-    background-color: black;
-    background-image: url(./download\ \(1\).jpeg);
-    background-size: cover;
-    background-position: center;
-    text-align: right;
-    padding: 20px;
+    background-color: rgb(255, 237, 210);
+    color: #000000;
 }
 
-/* h1{
-    padding: 10px;
-    font-family: monster;
-    color: #CACDC6;
-    text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
-    -webkit-text-stroke: 1px black; 
-} */
+#nav{
 
-p{
-    /* width: 50% ; */
-    margin-left: 51%;
-    /* text-align: right; */
-    padding: 16px;
-    font-weight: 600;
-    color: #1c1c1c;
-    padding: 10px;
-    font-size: 10px;
-    font-family:  neumachina;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
-button{
-    font-weight: 700;
-    text-shadow: 3px 3px 5px rgba(0,0,0,1);
-    /* -webkit-text-stroke: 0.1px black;  */
-    font-size: 10px;
-    padding: 5px 15px;
-    border-radius: 20px;
-    /* border: none; */
-    color: #1f1f1f;
-    background-color: #7a7a7a;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 15%;
-    border: 1px solid rgba(0, 0, 0, 0.442);
+#nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 30px;
 }
 
-/* h1{
-    font-size: 50px;
-    font-weight: 900;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Frainbow-colors&psig=AOvVaw0xURFrz48gAckFjLvcELeN&ust=1759392650386000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMDizsPGgpADFQAAAAAdAAAAABAE);
-    background-size: cover;
-    background-position: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-} */
+#main>h1 {
+    font-size: 500px;
+    font-weight: 100;
+    padding-left: 70px;
+}
 
-h1 {
-    font-size: 50px;
-    font-weight: 900;
-    background-image: url(https://www.color-hex.com/palettes/7415.png);
-    background-size: cover;
-    background-position: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+#btmleft{
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+    width: 300px;
+}
+
+#btmleft h3{
+    font-size: 30px;
+}
+
+#btmleft p{
+    font-size: 18px;
+}
+
+#btmleft h4{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+#bottombar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#bottombar h1{
+    font-family: typo;
+    font-weight: 100;
+}
+
+#bottombar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#main>img{
+    height: 400px;
+    position: absolute;
+    border-radius:20px;
+}
+
+#first{
+    top: 40%;
+    left: 45%;
+}
+#second{
+    top: 60%;
+    left: 55%;
+}
+#third{
+    top: 38%;
+    left: 66%;
 }
